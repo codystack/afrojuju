@@ -36,8 +36,8 @@ export default function Footer() {
               <i className="bx bxl-youtube" />
             </a>
           </div>
-          <p className="nav d-block fs-sm text-center pt-5 mt-lg-4 mb-0">
-            <span className="opacity-80">© All rights reserved. Made by </span>
+          <p className="nav d-block fs-sm text-center pt-3 mt-lg-3 mb-0">
+            <span className="opacity-80">© {(new Date().getFullYear())} All rights reserved. AfroJuju&trade;</span>
           </p>
         </div>
       </footer>

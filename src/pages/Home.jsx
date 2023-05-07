@@ -1,16 +1,15 @@
-import React, { Component } from 'react'
+import React from 'react'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
 
-export default class Home extends Component {
-  render() {
+export default function Home() {
     return (
       <>
         <main className="page-wrapper">
-        
+
           <NavBar />
 
-          <section className="dark-mode bg-dark bg-size-cover bg-repeat-0 bg-position-center position-relative overflow-hidden py-5 mb-4 h-100" style={{backgroundImage: 'url(assets/img/hero-bg.jpg)'}}>
+          <section className="dark-mode bg-dark bg-size-cover bg-repeat-0 bg-position-center position-relative overflow-hidden py-5 mb-4 h-100" style={{backgroundImage: 'url(assets/img/bg.jpg)'}}>
               <div className="container position-relative zindex-2 pt-5 pb-md-2 pb-lg-4 pb-xl-5">
                 <div className="row pt-3 pb-2 py-md-4">
                 
@@ -48,5 +47,4 @@ export default class Home extends Component {
         </main>
       </>
     )
-  }
 }
