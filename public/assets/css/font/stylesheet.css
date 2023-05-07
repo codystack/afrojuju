@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Syne';
+    src: local('Syne'), local('Syne'),
+    url('Syne-Bold.otf') format('otf'),
+    url('Syne-Bold.otf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Syne-extra';
+    src: local('Syne-extra'), local('Syne'),
+    url('Syne-Extra.otf') format('otf'),
+    url('Syne-Extra.otf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
