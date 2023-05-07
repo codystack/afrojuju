@@ -1,13 +1,16 @@
 import React, { Component } from 'react'
 import NavBar from '../components/NavBar'
+import Footer from '../components/Footer'
 
 export default class Home extends Component {
   render() {
     return (
       <>
         <main className="page-wrapper">
+        
           <NavBar />
-          <section className="dark-mode bg-dark bg-size-cover bg-repeat-0 bg-position-center position-relative overflow-hidden py-5 mb-4 h-100" style={{backgroundImage: 'url(assets/img/landing/saas-3/hero/hero-bg.jpg)'}}>
+
+          <section className="dark-mode bg-dark bg-size-cover bg-repeat-0 bg-position-center position-relative overflow-hidden py-5 mb-4 h-100" style={{backgroundImage: 'url(assets/img/hero-bg.jpg)'}}>
               <div className="container position-relative zindex-2 pt-5 pb-md-2 pb-lg-4 pb-xl-5">
                 <div className="row pt-3 pb-2 py-md-4">
                 
@@ -27,19 +30,21 @@ export default class Home extends Component {
                     <div className="col-xl-7 col-md-6 d-md-flex justify-content-end">
                       <div className="parallax mx-auto ms-md-0 me-md-n5" style={{maxWidth: '675px'}}>
                           <div className="parallax-layer zindex-2" data-depth="0.1">
-                          <img src="assets/img/landing/saas-3/hero/layer01.png" alt="Card" />
+                          <img src="assets/img/layer01.png" alt="Card" />
                           </div>
                           <div className="parallax-layer zindex-3" data-depth="0.25">
-                          <img src="assets/img/landing/saas-3/hero/layer02.png" alt="Bubble" />
+                          <img src="assets/img/layer02.png" alt="Bubble" />
                           </div>
                           <div className="parallax-layer" data-depth="-0.15">
-                          <img src="assets/img/landing/saas-3/hero/layer03.png" alt="Bubble" />
+                          <img src="assets/img/layer03.png" alt="Bubble" />
                           </div>
                       </div>
                     </div>
                 </div>
               </div>
           </section>
+
+          <Footer />
         </main>
       </>
     )

@@ -1,21 +1,20 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 
-export default class NavBar extends Component {
-  render() {
+export default function NavBar() {
     return (
       <>
         <header className="header navbar navbar-expand-lg navbar-dark position-absolute navbar-sticky">
             <div className="container px-3">
                 <a href="./" className="navbar-brand pe-3">
-                    <img src="assets/img/AfroJuju-Logo.png" width={207} alt="Silicon" />
+                    <img src="assets/img/AfroJuju-Logo.png" width={207} alt="logo" />
                 </a>
                 <div id="navbarNav" className="offcanvas offcanvas-end bg-dark">
                     <div className="offcanvas-header border-bottom border-light">
                         <h5 className="offcanvas-title text-white">Menu</h5>
                         <button type="button" className="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close" />
                     </div>
-                    <div className="offcanvas-body ms-auto mx-4">
+                    <div className="offcanvas-body mx-auto mx-4">
                         <ul className="navbar-nav mb-2 mb-lg-0">
                             <li className="nav-item dropdown">
                                 <a href className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Products</a>
@@ -46,6 +45,9 @@ export default class NavBar extends Component {
                                 <Link to='/pricing' className="nav-link">Pricing</Link>
                             </li>
                             <li className="nav-item">
+                                <Link to='/faq' className="nav-link">FAQ's</Link>
+                            </li>
+                            <li className="nav-item">
                                 <Link to='/contact' className="nav-link">Contact us</Link>
                             </li>
                         </ul>
@@ -71,5 +73,4 @@ export default class NavBar extends Component {
         </header>
       </>
     )
-  }
 }
