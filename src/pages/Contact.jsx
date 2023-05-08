@@ -97,7 +97,7 @@ export default function Contact() {
                         </div>
                     </div>
                     <div className="col-lg-5 offset-lg-1">
-                        <h2 className="h4 mb-4">Medical Center 1</h2>
+                        <h2 className="h4 mb-4">Office Address</h2>
                         <ul className="list-unstyled pb-2 pb-lg-0 mb-4 mb-lg-5">
                         <li className="d-flex pb-1 mb-2">
                             <i className="bx bx-map text-primary fs-xl me-2" style={{marginTop: '.125rem'}} />
