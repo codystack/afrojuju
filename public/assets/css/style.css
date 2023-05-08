@@ -3011,12 +3011,12 @@ fieldset:disabled .btn {
     --si-btn-bg: #eb9100;
     --si-btn-border-color: #eb9100;
     --si-btn-hover-color: #000;
-    --si-btn-hover-bg: #7a7df3;
-    --si-btn-hover-border-color: #7375f2;
+    --si-btn-hover-bg: #c67b01;
+    --si-btn-hover-border-color: #c67b01;
     --si-btn-focus-shadow-rgb: 84, 87, 205;
     --si-btn-active-color: #000;
-    --si-btn-active-bg: #8285f4;
-    --si-btn-active-border-color: #7375f2;
+    --si-btn-active-bg: #c67b01;
+    --si-btn-active-border-color: #c67b01;
     --si-btn-active-shadow: unset;
     --si-btn-disabled-color: #000;
     --si-btn-disabled-bg: #eb9100;
@@ -12904,10 +12904,10 @@ html:not([dir=rtl]) .range-slider-ui.noUi-horizontal .noUi-handle {
 .btn-primary {
     --si-btn-hover-color: #fff;
     --si-btn-active-color: #fff;
-    --si-btn-hover-bg: #4044ee;
-    --si-btn-active-bg: #4044ee;
-    --si-btn-hover-border-color: #4044ee;
-    --si-btn-active-border-color: #4044ee;
+    --si-btn-hover-bg: #c67b01;
+    --si-btn-active-bg: #c67b01;
+    --si-btn-hover-border-color: #c67b01;
+    --si-btn-active-border-color: #c67b01;
     --si-btn-disabled-color: #fff
 }
 

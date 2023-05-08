@@ -3,6 +3,7 @@ import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import ErrorPage from './pages/ErrorPage';
+import Faq from './pages/Faq';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <ScrollToTop>
           <Routes>
             <Route path='/' element={<Home />} />
+            <Route path='/faq' element={<Faq />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='*' element={<ErrorPage />} />
           </Routes>
