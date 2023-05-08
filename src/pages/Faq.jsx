@@ -34,11 +34,11 @@ export default function Faq() {
                                 </div>
                                 <div className="accordion-item border-0 rounded-3 shadow-sm mb-3">
                                 <h4 className="accordion-header" id="q2-heading">
-                                    <button className="accordion-button shadow-none rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#q2" aria-expanded="true" aria-controls="q2">
+                                    <button className="accordion-button shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q2" aria-expanded="false" aria-controls="q2">
                                     How do I know which plan is right for me?
                                     </button>
                                 </h4>
-                                <div id="q2" className="accordion-collapse collapse show" aria-labelledby="q2-heading" data-bs-parent="#faq" style={{}}>
+                                <div id="q2" className="accordion-collapse collapse" aria-labelledby="q2-heading" data-bs-parent="#faq" style={{}}>
                                     <div className="accordion-body fs-sm pt-0">
                                     <p>Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.</p>
                                     <p className="mb-0">Ornare senectus fusce dignissim ut. Integer consequat in eu tortor, faucibus et lacinia posuere. Turpis sit viverra lorem suspendisse lacus aliquam auctor vulputate. Quis egestas aliquam nunc purus lacus, elit leo elit facilisi. Dignissim amet adipiscing massa integer.</p>
