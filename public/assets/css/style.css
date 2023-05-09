@@ -42,7 +42,7 @@
     --si-success-rgb: 34, 197, 94;
     --si-info-rgb: 76, 130, 247;
     --si-warning-rgb: 255, 186, 8;
-    --si-danger-rgb: 239, 68, 68;
+    --si-danger-rgb: 251, 8, 7;
     --si-light-rgb: 255, 255, 255;
     --si-dark-rgb: 11, 15, 25;
     --si-white-rgb: 255, 255, 255;
@@ -12996,8 +12996,8 @@ html:not([dir=rtl]) .range-slider-ui.noUi-horizontal .noUi-handle {
 }
 
 .btn-outline-primary {
-    --si-btn-border-color: rgba(99, 102, 241, 0.35);
-    --si-btn-disabled-border-color: rgba(99, 102, 241, 0.35)
+    --si-btn-border-color: #eb9100;
+    --si-btn-disabled-border-color: rgba(235 145 0 / 57%)
 }
 
 .btn-outline-success {
@@ -13016,8 +13016,8 @@ html:not([dir=rtl]) .range-slider-ui.noUi-horizontal .noUi-handle {
 }
 
 .btn-outline-danger {
-    --si-btn-border-color: rgba(239, 68, 68, 0.35);
-    --si-btn-disabled-border-color: rgba(239, 68, 68, 0.35)
+    --si-btn-border-color: rgba(251, 8, 7);
+    --si-btn-disabled-border-color: rgba(251, 8, 7)
 }
 
 .btn-outline-light {

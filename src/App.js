@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import ErrorPage from './pages/ErrorPage';
 import Faq from './pages/Faq';
+import Pricing from './pages/Pricing';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <ScrollToTop>
           <Routes>
             <Route path='/' element={<Home />} />
+            <Route path='/pricing' element={<Pricing />} />
             <Route path='/faq' element={<Faq />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='*' element={<ErrorPage />} />
