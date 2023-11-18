@@ -16,39 +16,23 @@ export default function NavBar() {
                     </div>
                     <div className="offcanvas-body mx-auto mx-4">
                         <ul className="navbar-nav mb-2 mb-lg-0">
-                            <li className="nav-item dropdown">
-                                <a href className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Products</a>
-                                <ul className="dropdown-menu dropdown-menu-dark">
-                                    <li><Link to='' className="dropdown-item">Music Distribution</Link></li>
-                                    <li><Link to='' className="dropdown-item">Talent Management</Link></li>
-                                    <li><Link to='' className="dropdown-item">Instagram Trends</Link></li>
-                                    <li><Link to='' className="dropdown-item">Radio Promotions</Link></li>
-                                    <li><Link to='' className="dropdown-item">TV Promotions</Link></li>
-                                    <li><Link to='' className="dropdown-item">Tiktok</Link></li>
-                                    <li><Link to='' className="dropdown-item">Trends/Influencer</Link></li>
-                                    <li><Link to='' className="dropdown-item">Engagement</Link></li>
-                                </ul>
-                            </li>
-                            <li className="nav-item dropdown">
-                                <a href className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
-                                <ul className="dropdown-menu dropdown-menu-dark">
-                                    <li><Link to='' className="dropdown-item">Youtube Subscribers & Viewers (Organic)</Link></li>
-                                    <li><Link to='' className="dropdown-item">Spotify Playlisting & Trends</Link></li>
-                                    <li><Link to='' className="dropdown-item">Apple Music Playlisting</Link></li>
-                                    <li><Link to='' className="dropdown-item">Boomplay Playlisting</Link></li>
-                                    <li><Link to='' className="dropdown-item">Audiomack Playlisting</Link></li>
-                                    <li><Link to='' className="dropdown-item">Artist Bookings</Link></li>
-                                    <li><Link to='' className="dropdown-item">Worldwide Touring</Link></li>
-                                </ul>
+                            <li className="nav-item">
+                                <Link to='/pricing' className="nav-link">Distribution</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to='/pricing' className="nav-link">Pricing</Link>
+                                <Link to='/faq' className="nav-link">Promotions</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to='/faq' className="nav-link">FAQ's</Link>
+                                <Link to='/contact' className="nav-link">Black Market</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to='/contact' className="nav-link">Contact us</Link>
+                                <Link to='/contact' className="nav-link">Talent Mgt</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to='/contact' className="nav-link">Bookings</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to='/contact' className="nav-link">Ticket</Link>
                             </li>
                         </ul>
                     </div>
