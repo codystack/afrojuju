@@ -27,8 +27,8 @@ export default function Home() {
                               <input type="email" className="form-control form-control-lg" id="email" required />
                               <div className="invalid-feedback">Please provide a valid email address!</div>
                           </div>
-                          <div className="col-12 pt-2 pt-sm-3">
-                              <button type="submit" className="btn btn-lg btn-danger w-100 w-sm-auto">Send message</button>
+                          <div className="col-12 pt-1 pt-sm-2">
+                              <button type="submit" className="btn btn-lg btn-danger w-100">Send message</button>
                           </div>
                       </form>
                       {/* <div className="d-flex flex-column flex-sm-row justify-content-center justify-content-md-start">
