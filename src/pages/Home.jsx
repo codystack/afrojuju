@@ -28,7 +28,7 @@ export default function Home() {
                               <div className="invalid-feedback">Please provide a valid email address!</div>
                           </div>
                           <div className="col-12 pt-1 pt-sm-2">
-                              <button type="submit" className="btn btn-lg btn-danger w-100">Send message</button>
+                              <button type="submit" className="btn btn-lg btn-danger w-100">Join Waitlist</button>
                           </div>
                       </form>
                       {/* <div className="d-flex flex-column flex-sm-row justify-content-center justify-content-md-start">
