@@ -14,25 +14,19 @@ export default function NavBar() {
                         <h5 className="offcanvas-title text-white">Menu</h5>
                         <button type="button" className="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close" />
                     </div>
-                    <div className="offcanvas-body mx-auto mx-4">
+                    <div className="offcanvas-body ms-auto mx-4">
                         <ul className="navbar-nav mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <Link to='/pricing' className="nav-link">Distribution</Link>
+                                <Link to='/' className="nav-link">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to='/faq' className="nav-link">Promotions</Link>
+                                <Link to='/about' className="nav-link">About us</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to='/contact' className="nav-link">Black Market</Link>
+                                <Link to='/services' className="nav-link">Services</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to='/contact' className="nav-link">Talent Mgt</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link to='/contact' className="nav-link">Bookings</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link to='/contact' className="nav-link">Ticket</Link>
+                                <Link to='/contact' className="nav-link">Contact us</Link>
                             </li>
                         </ul>
                     </div>
@@ -47,11 +41,8 @@ export default function NavBar() {
                 <button type="button" className="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon" />
                 </button>
-                <a href="https://app.afrojuju.co" className="btn btn-outline-light btn-sm fs-sm me-3 rounded d-none d-lg-inline-flex" target="_blank" rel="noreferrer noopener">
-                    Login
-                </a>
                 <a href="https://app.afrojuju.co/signup" className="btn btn-danger btn-sm fs-sm rounded d-none d-lg-inline-flex" target="_blank" rel="noreferrer noopener">
-                    Get started
+                    Download App
                 </a>
             </div>
         </header>

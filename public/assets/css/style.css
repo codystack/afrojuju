@@ -17055,7 +17055,7 @@ img-comparison-slider:focus {
 }
 
 .dark-mode .navbar {
-    --si-navbar-stuck-bg: #0b0f19;
+    --si-navbar-stuck-bg: #000;
     --si-navbar-brand-color: #fff;
     --si-navbar-brand-hover-color: #fff;
     --si-navbar-toggler-color: rgba(255, 255, 255, 0.85);

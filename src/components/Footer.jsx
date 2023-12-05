@@ -10,8 +10,8 @@ export default function Footer() {
             <img src="assets/img/AfroJuju-Logo.png" width={200} alt="Afrojuju" />
           </div>
           <ul className="nav justify-content-center pt-2 pb-4 pb-lg-3">
-            <li className="nav-item"><Link to='' className="nav-link">Terms</Link></li>
-            <li className="nav-item"><Link to='' className="nav-link">Privacy</Link></li>
+            <li className="nav-item"><Link to='/terms-of-use' className="nav-link">Terms</Link></li>
+            <li className="nav-item"><Link to='/privacy-policy' className="nav-link">Privacy</Link></li>
             <li className="nav-item"><Link to='' className="nav-link">About us</Link></li>
           </ul>
           <div className="d-flex flex-column flex-sm-row justify-content-center">
@@ -26,13 +26,13 @@ export default function Footer() {
             <a href className="btn btn-icon btn-secondary btn-facebook mx-2">
               <i className="bx bxl-facebook" />
             </a>
-            <a href className="btn btn-icon btn-secondary btn-instagram mx-2">
+            <a href="https://instagram.com/afro_juju_" target="_blank" rel="noreferrer noopener" className="btn btn-icon btn-secondary btn-instagram mx-2">
               <i className="bx bxl-instagram" />
             </a>
-            <a href className="btn btn-icon btn-secondary btn-twitter mx-2">
+            <a href="https://twitter.com/JujuAfro6574" target="_blank" rel="noreferrer noopener" className="btn btn-icon btn-secondary btn-twitter mx-2">
               <i className="bx bxl-twitter" />
             </a>
-            <a href className="btn btn-icon btn-secondary btn-youtube mx-2">
+            <a href="https://instagram.com/afro_juju_" target="_blank" rel="noreferrer noopener" className="btn btn-icon btn-secondary btn-youtube mx-2">
               <i className="bx bxl-youtube" />
             </a>
           </div>

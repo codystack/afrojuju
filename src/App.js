@@ -3,8 +3,7 @@ import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import ErrorPage from './pages/ErrorPage';
-import Faq from './pages/Faq';
-import Pricing from './pages/Pricing';
+import Services from './pages/Services';
 import About from './pages/About';
 
 function App() {
@@ -15,8 +14,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/about' element={<About />} />
-            <Route path='/pricing' element={<Pricing />} />
-            <Route path='/faq' element={<Faq />} />
+            <Route path='/services' element={<Services />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='*' element={<ErrorPage />} />
           </Routes>
