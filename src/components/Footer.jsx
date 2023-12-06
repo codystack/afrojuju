@@ -10,9 +10,9 @@ export default function Footer() {
             <img src="assets/img/AfroJuju-Logo.png" width={200} alt="Afrojuju" />
           </div>
           <ul className="nav justify-content-center pt-2 pb-4 pb-lg-3">
-            <li className="nav-item"><Link to='/terms-of-use' className="nav-link">Terms</Link></li>
-            <li className="nav-item"><Link to='/privacy-policy' className="nav-link">Privacy</Link></li>
-            <li className="nav-item"><Link to='' className="nav-link">About us</Link></li>
+            <li className="nav-item"><Link to='/terms-of-use' className="nav-link">Terms & Conditions</Link></li>
+            <li className="nav-item"><Link to='/privacy-policy' className="nav-link">Privacy Policy</Link></li>
+            
           </ul>
           <div className="d-flex flex-column flex-sm-row justify-content-center">
             <a href="https://afrojuju.co.uk" className="btn btn-lg px-3 py-2 me-sm-3 me-lg-4 mb-3" style={{backgroundColor: '#223158'}}>

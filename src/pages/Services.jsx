@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
 
@@ -9,119 +10,125 @@ export default function Services() {
 
                 <NavBar />
 
-                    <h1 className="container pb-4 mt-lg-5 py-5 display-4">Our Services</h1>
+                    <nav className="container py-4 mb-2 my-lg-3" aria-label="breadcrumb">
+                    </nav>
+
+                    <h1 className="container pb-4 mt-lg-5 py-5 display-4 mb-5">Our Services</h1>
 
                     <section className="container mb-md-3 mb-lg-5 pb-5">
-                        <div className="row">
-                        <div className="col-md-6 pb-2 pb-md-0 mb-4 mb-md-0">
-                            <div className="pe-lg-5">
-                            <img src="assets/img/services/service01.jpg" className="rounded-3" alt="Image" />
-                            </div>
-                        </div>
-                        <div className="col-md-6">
-                            <h2 className="h3 mb-sm-4">Consulting Services</h2>
-                            <p className="d-md-none d-xl-block pb-2 pb-md-3 mb-3">Orci, ac libero sit ultrices enim volutpat augue. Congue sit nulla velit ornare cras. Facilisis tempus non erat ornare imperdiet. In ac ullamcorper proin urna, lacus, tortor, ullamcorper egestas mattis mauris.</p>
-                            <div className="border rounded-3 mb-4 mb-lg-5">
-                            <div className="row row-cols-1 row-cols-sm-2 g-0">
-                                <div className="col d-flex align-items-center border-end-sm border-bottom p-3">
-                                <img src="assets/img/services/icons/digital.svg" width={48} alt="Icon" />
-                                <div className="ps-2 ms-1">
-                                    <h3 className="h6 mb-0">Digital transformation</h3>
-                                    <p className="fs-xs mb-0">Aliquam quis odio senectus.</p>
-                                </div>
-                                </div>
-                                <div className="col d-flex align-items-center border-bottom p-3">
-                                <img src="assets/img/services/icons/chart.svg" width={48} alt="Icon" />
-                                <div className="ps-2 ms-1">
-                                    <h3 className="h6 mb-0">Analytics services</h3>
-                                    <p className="fs-xs mb-0">Curabitur neque ut morbi sapien.</p>
-                                </div>
-                                </div>
-                                <div className="col d-flex align-items-center border-end-sm p-3">
-                                <img src="assets/img/services/icons/marketing.svg" width={48} alt="Icon" />
-                                <div className="ps-2 ms-1">
-                                    <h3 className="h6 mb-0">Marketing &amp; sales</h3>
-                                    <p className="fs-xs mb-0">At faucibus molestie egestas sed.</p>
-                                </div>
-                                </div>
-                                <hr className="d-sm-none" />
-                                <div className="col d-flex align-items-center p-3">
-                                <img src="assets/img/services/icons/cybersecurity.svg" width={48} alt="Icon" />
-                                <div className="ps-2 ms-1">
-                                    <h3 className="h6 mb-0">Cybersecurity &amp; strategy</h3>
-                                    <p className="fs-xs mb-0">Orci bibendum ullamcorper lorem.</p>
-                                </div>
+                        <div className="row align-items-center">
+                            <div className="col-md-6 pb-2 pb-md-0 mb-4 mb-md-0">
+                                <div className="pe-lg-5">
+                                    <img src="assets/img/musicDes.jpg" style={{width: 90 + "%"}} className="rounded-3" alt="Music Distribution and Playlisting" />
                                 </div>
                             </div>
+                            <div className="col-md-6">
+                                <h2 className="h3 mb-sm-4">Music Distribution and Playlisting</h2>
+                                <p className="d-md-none d-xl-block pb-2 pb-md-3 mb-3">We offer a seamless and efficient music distribution service, ensuring that your music reaches a wide audience across various platforms. Our expertly curated playlists help artists gain exposure and connect with listeners who appreciate their unique sound.</p>
+                                <div className="d-flex flex-column flex-sm-row">
+                                    <Link to='/contact' className="btn btn-outline-primary"> Start Distribution
+                                    <i className="bx bx-right-arrow-alt fs-xl ms-2 me-n1" />
+                                    </Link>
+                                </div>
                             </div>
-                            <div className="d-flex flex-column flex-sm-row">
-                            <a href="#" className="btn btn-primary mb-3 mb-sm-0 me-sm-3">Send request</a>
-                            <a href="#" className="btn btn-outline-primary">
-                                Learn more
-                                <i className="bx bx-right-arrow-alt fs-xl ms-2 me-n1" />
-                            </a>
-                            </div>
-                        </div>
                         </div>
                     </section>
 
 
                     <section className="container pt-2 pt-lg-3 mb-md-3 mb-lg-5 pb-5">
-                        <div className="row">
-                        <div className="col-md-6 order-md-2 pb-2 pb-md-0 mb-4 mb-md-0">
-                            <div className="ps-lg-5">
-                            <img src="assets/img/services/service02.jpg" className="rounded-3" alt="Image" />
+                        <div className="row align-items-center">
+                            <div className="col-md-6 order-md-2 pb-2 pb-md-0 mb-4 mb-md-0">
+                                <div className="ps-lg-5">
+                                    <img src="assets/img/brandpromo.jpg" style={{width: 90 + "%"}} className="rounded-3" alt="Music, TV, and Brand Promotion" />
+                                </div>
+                            </div>
+                            <div className="col-md-6 ordr-md-1">
+                                <h2 className="h3 mb-sm-4">Music, TV, and Brand Promotion</h2>
+                                <p className="d-md-none d-xl-block pb-2 pb-md-3 mb-3">With our extensive network and industry expertise, we facilitate music, TV, and brand promotions, helping artists and brands gain visibility and recognition. We work closely with media outlets, streaming platforms, and advertising channels to create impactful promotional campaigns.</p>
+                                <div className="d-flex flex-column flex-sm-row">
+                                    <Link to='/contact' className="btn btn-outline-primary"> Start Promotion
+                                    <i className="bx bx-right-arrow-alt fs-xl ms-2 me-n1" />
+                                    </Link>
+                                </div>
                             </div>
                         </div>
-                        <div className="col-md-6 ordr-md-1">
-                            <h2 className="h3 mb-sm-4">Banking Expertise</h2>
-                            <ul className="list-unstyled d-md-none d-xl-block pb-2 pb-md-3 mb-3">
-                            <li className="d-flex align-items-center mb-2">
-                                <i className="bx bx-check lead text-primary me-2" />
-                                Sagittis quam egestas sit sit convallis turpis sit augue interdum morbi.
-                            </li>
-                            <li className="d-flex align-items-center mb-2">
-                                <i className="bx bx-check lead text-primary me-2" />
-                                Sollicitudin cursus habitasse adipiscing est sed aenean sapien.
-                            </li>
-                            <li className="d-flex align-items-center">
-                                <i className="bx bx-check lead text-primary me-2" />
-                                At arcu arcu morbi scelerisque nibh. Quam velit fermentum porta facilisi massa.
-                            </li>
-                            </ul>
-                            <div className="border rounded-3 mb-4 mb-lg-5">
-                            <div className="row row-cols-1 row-cols-sm-2 g-0">
-                                <div className="col d-flex align-items-center border-end-sm border-bottom p-3">
-                                <img src="assets/img/services/icons/insurance.svg" width={48} alt="Icon" />
-                                <div className="ps-2 ms-1">
-                                    <h3 className="h6 mb-0">Insurance</h3>
-                                    <p className="fs-xs mb-0">Nunc dui aliquam volutpat augue.</p>
-                                </div>
-                                </div>
-                                <div className="col d-flex align-items-center border-bottom p-3">
-                                <img src="assets/img/services/icons/banking.svg" width={48} alt="Icon" />
-                                <div className="ps-2 ms-1">
-                                    <h3 className="h6 mb-0">Banking risk</h3>
-                                    <p className="fs-xs mb-0">Habitasse adipiscing aenean sapien.</p>
-                                </div>
-                                </div>
-                                <div className="col d-flex align-items-center border-end-sm p-3">
-                                <img src="assets/img/services/icons/payments.svg" width={48} alt="Icon" />
-                                <div className="ps-2 ms-1">
-                                    <h3 className="h6 mb-0">Payments</h3>
-                                    <p className="fs-xs mb-0">At faucibus molestie egestas sed.</p>
-                                </div>
+                    </section>
+
+                    <section className="container mb-md-3 mb-lg-5 pb-5">
+                        <div className="row align-items-center">
+                            <div className="col-md-6 pb-2 pb-md-0 mb-4 mb-md-0">
+                                <div className="pe-lg-5">
+                                    <img src="assets/img/influencers.jpg" style={{width: 90 + "%"}} className="rounded-3" alt="Easy Access to A-List Artists and Influencers" />
                                 </div>
                             </div>
-                            </div>
-                            <div className="d-flex flex-column flex-sm-row">
-                            <a href="#" className="btn btn-primary mb-3 mb-sm-0 me-sm-3">Send request</a>
-                            <a href="#" className="btn btn-outline-primary">
-                                Learn more
-                                <i className="bx bx-right-arrow-alt fs-xl ms-2 me-n1" />
-                            </a>
+                            <div className="col-md-6">
+                                <h2 className="h3 mb-sm-4">Easy Access to A-List Artists and Influencers</h2>
+                                <p className="d-md-none d-xl-block pb-2 pb-md-3 mb-3">We understand the importance of collaborations and connections in the music industry. Through our app, you gain easy access to A-list artists and influencers, enabling you to forge valuable partnerships and elevate your music promotion efforts.</p>
+                                <div className="d-flex flex-column flex-sm-row">
+                                    <Link to='/contact' className="btn btn-outline-primary"> Get Access
+                                    <i className="bx bx-right-arrow-alt fs-xl ms-2 me-n1" />
+                                    </Link>
+                                </div>
                             </div>
                         </div>
+                    </section>
+
+
+                    <section className="container pt-2 pt-lg-3 mb-md-3 mb-lg-5 pb-5">
+                        <div className="row align-items-center">
+                            <div className="col-md-6 order-md-2 pb-2 pb-md-0 mb-4 mb-md-0">
+                                <div className="ps-lg-5">
+                                    <img src="assets/img/events.jpg" style={{width: 90 + "%"}} className="rounded-3" alt="Shows and Events" />
+                                </div>
+                            </div>
+                            <div className="col-md-6 ordr-md-1">
+                                <h2 className="h3 mb-sm-4">Shows and Events</h2>
+                                <p className="d-md-none d-xl-block pb-2 pb-md-3 mb-3">Our platform also assists in organizing and promoting shows and events. Whether it's a small gig or a large-scale concert, our event planning services ensure smooth execution and maximum attendance, giving artists and brands the opportunity to shine on stage.</p>
+                                <div className="d-flex flex-column flex-sm-row">
+                                    <Link to='/contact' className="btn btn-outline-primary"> Get Started
+                                    <i className="bx bx-right-arrow-alt fs-xl ms-2 me-n1" />
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section className="container mb-md-3 mb-lg-5 pb-5">
+                        <div className="row align-items-center">
+                            <div className="col-md-6 pb-2 pb-md-0 mb-4 mb-md-0">
+                                <div className="pe-lg-5">
+                                    <img src="assets/img/talentmgt.jpg" style={{width: 90 + "%"}} className="rounded-3" alt="Talent Management" />
+                                </div>
+                            </div>
+                            <div className="col-md-6">
+                                <h2 className="h3 mb-sm-4">Talent Management</h2>
+                                <p className="d-md-none d-xl-block pb-2 pb-md-3 mb-3">We provide comprehensive talent management services, guiding and nurturing artists throughout their careers. From contract negotiation to strategic planning, we support artists in their artistic development, helping them make informed decisions and reach their full potential.</p>
+                                <div className="d-flex flex-column flex-sm-row">
+                                    <Link to='/contact' className="btn btn-outline-primary"> Get Onboard
+                                    <i className="bx bx-right-arrow-alt fs-xl ms-2 me-n1" />
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <section className="container pt-2 pt-lg-3 mb-md-3 mb-lg-5 pb-5">
+                        <div className="row align-items-center">
+                            <div className="col-md-6 order-md-2 pb-2 pb-md-0 mb-4 mb-md-0">
+                                <div className="ps-lg-5">
+                                    <img src="assets/img/brandDev.jpg" style={{width: 90 + "%"}} className="rounded-3" alt="Brand Development" />
+                                </div>
+                            </div>
+                            <div className="col-md-6 ordr-md-1">
+                                <h2 className="h3 mb-sm-4">Brand Development</h2>
+                                <p className="d-md-none d-xl-block pb-2 pb-md-3 mb-3">Building a strong brand is crucial for success in the music industry. Our app offers brand development assistance, helping artists and brands create a unique identity that resonates with their target audience. We provide branding strategies, visual design, and marketing support to establish a compelling brand presence.</p>
+                                <div className="d-flex flex-column flex-sm-row">
+                                    <Link to='/contact' className="btn btn-outline-primary"> Go Public
+                                    <i className="bx bx-right-arrow-alt fs-xl ms-2 me-n1" />
+                                    </Link>
+                                </div>
+                            </div>
                         </div>
                     </section>
 
