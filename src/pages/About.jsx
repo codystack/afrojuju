@@ -10,7 +10,7 @@ export default function About() {
 
             <NavBar />
 
-            <section className="position-relative pt-5 mb-5" style={{backgroundColor: '#151922'}}>
+            <section className="position-relative pt-5 mb-5">
                 <span className="d-dark-mode-none d-block position-absolute start-0 bottom-0 w-100 bg-white" style={{height: '19.875vw'}} />
                 <span className="d-dark-mode-block d-none position-absolute start-0 bottom-0 w-100 bg-light" style={{height: '19.875vw'}} />
                 <div className="container position-relative zindex-2 pt-5" data-bs-theme="dark">

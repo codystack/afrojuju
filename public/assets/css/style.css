@@ -3682,7 +3682,7 @@ fieldset:disabled .btn {
     --si-dropdown-box-shadow: ;
     --si-dropdown-link-color: rgba(255, 255, 255, 0.85);
     --si-dropdown-link-hover-color: #eb9100;
-    --si-dropdown-divider-bg: rgba(255, 255, 255, 0.14);
+    --si-dropdown-divider-bg: rgba(0, 0, 0, 0.14);
     --si-dropdown-link-hover-bg: transparent;
     --si-dropdown-link-active-color: #eb9100;
     --si-dropdown-link-active-bg: transparent;
@@ -16661,7 +16661,7 @@ img-comparison-slider:focus {
     --si-gray-700: rgba(255, 255, 255, .7);
     --si-gray-800: rgba(255, 255, 255, .85);
     --si-gray-900: #fff;
-    --si-body-bg: #0b0f19;
+    --si-body-bg: #000;
     --si-body-color: rgba(255, 255, 255, 0.7);
     --si-secondary-bg: rgba(255, 255, 255, .04);
     --si-heading-color: #fff;
@@ -16718,7 +16718,7 @@ img-comparison-slider:focus {
 
 .dark-mode .bg-light:not(.badge),
 .dark-mode .card.card-hover.bg-light {
-    background-color: #0b0f19 !important
+    background-color: #000 !important
 }
 
 .dark-mode .bg-secondary,

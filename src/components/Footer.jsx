@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Footer() {
   return (
     <>
-      <footer className="footer pt-1 pb-4 pb-lg-1">
+      <footer className="footer bg-black pt-1 pb-4 pb-lg-1">
         <div className="container text-center pt-lg-1">
           <div className="navbar-brand justify-content-center text-dark mb-2 mb-lg-4">
             <img src="assets/img/AfroJuju-Logo.png" width={200} alt="Afrojuju" />
@@ -15,10 +15,10 @@ export default function Footer() {
             
           </ul>
           <div className="d-flex flex-column flex-sm-row justify-content-center">
-            <a href="https://afrojuju.co.uk" className="btn btn-lg px-3 py-2 me-sm-3 me-lg-4 mb-3" style={{backgroundColor: '#223158'}}>
+            <a href="https://form.jotform.com/233424044747556" target="_blank" rel="noreferrer noopener" className="btn btn-lg px-3 py-2 me-sm-3 me-lg-4 mb-3" style={{backgroundColor: '#223158'}}>
               <img src="assets/img/market/appstore-light.svg" className="dark-mode-img" width={124} alt="App Store" />
             </a>
-            <a href="https://afrojuju.co.uk"className="btn btn-lg rounded px-3 py-2 mb-3" style={{backgroundColor: '#223158'}}>
+            <a href="https://play.google.com/store/apps/details?id=com.afrojuju&pcampaignid=web_share" target="_blank" rel="noreferrer noopener" className="btn btn-lg rounded px-3 py-2 mb-3" style={{backgroundColor: '#223158'}}>
               <img src="assets/img/market/googleplay-light.svg" className="dark-mode-img" width={139} alt="Google Play" />
             </a>
           </div>
