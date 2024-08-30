@@ -48,7 +48,7 @@ export default function About() {
                 
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 pb-lg-2 pb-xl-3">
 
-                    <div className="col">
+                    {/* <div className="col">
                         <div className="card card-hover border-0 bg-transparent">
                             <div className="position-relative">
                                 <img src="assets/img/vanessa.jpeg" className="rounded-3" alt="Vanessa Okoye" />
@@ -66,7 +66,7 @@ export default function About() {
                                 <p className="fs-sm mb-0">Founder &amp; CEO</p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     <div className="col">
                         <div className="card card-hover border-0 bg-transparent">
