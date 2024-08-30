@@ -83,7 +83,7 @@ export default function About() {
                             </div>
                             <div className="card-body text-center p-3">
                                 <h3 className="fs-lg fw-semibold pt-1 mb-2">Godgift Nlerum</h3>
-                                <p className="fs-sm mb-0">Creative Director &amp; Co-Founder</p>
+                                <p className="fs-sm mb-0">Founder &amp; CEO</p>
                             </div>
                         </div>
                     </div>
